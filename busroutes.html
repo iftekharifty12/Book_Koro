@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <style>
+        body{
+            background-color:orchid;
+        }
+        .container{
+            position: relative;
+            top:200px;
+        }
+        nav{
+        background-color: white;
+        border-bottom: 2px solid black;
+        box-shadow:0 0 10px black;
+        }
+        nav{
+            background-color:white;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+                <a href="" class="navbar-brand">
+                    <h4>ALPHA BUS SERVICES</h4>
+                </a>
+                <li class="nav-item ps-5">
+                    <a href="index.php" class="nav-link text-dark">HOME</a>
+                </li>
+                <li class="nav-item ps-5">
+                    <a href="about.html" class="nav-link text-dark">ABOUT US</a>
+                </li>
+                
+                <li class="nav-item ps-5">
+                    <a href="contact.php" class="nav-link text-dark ">CONTACT US</a>
+                </li>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mynav" aria-controls="mynav" aria-expanded="false" aria-label="Toggler navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="mynav">
+                    
+                    <a href="index.php" class="btn    btn-primary rounded-pill ms-auto ps-4 pe-4" style="border-radius: 50% ;">BACK</a>
+                </div>
+            </div>
+            
+
+        </nav>
+    </header>
+    <div class="jumbotron ">
+        <h3 style="text-align: center; position: relative; top: 100px; text-decoration:underline;">AVAILABLE  ROUTES</h3>
+    </div>
+        
+    <div class="container">
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover text-center table-primary">
+                <thead class="table-light">
+                    <tr>
+                        <th>FROM</th>
+                        <th>TO</th>
+                        <th>BOOK</th>
+                        
+                    </tr>
+                </thead>
+                <tbody class="table-dark">
+                    <tr>
+                        <td>Dhaka</td>
+                        <td>Cox's Bazar</td>
+                        <td><a href="cbazar.html"class="btn btn-primary">book</a></td>
+                        
+                        
+                    </tr>
+                    <tr>
+                        <td>Dhaka</td>
+                        <td>Kolkata</td>
+                        <td><a href="kolkata.html"class="btn btn-primary">book</a></td>
+                        
+                        
+                    </tr> 
+                   
+                </tbody>
+            </table>
+            </div>
+        </div>
+    
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script> 
+</body>
+</html>
